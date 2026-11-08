@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"SemVersion": "1.0.0",
+	"GameVersion": ">=513885",
+	"FriendlyName": "Continuous Elevator Sync",
+	"Description": "Makes the Continuous Elevator (Keep Feeding To Maintain Phase) consume its parts on factory time instead of world time, so a slow server no longer starves the elevator. Only the server needs it.",
+	"Category": "Modding",
+	"CreatedBy": "benvrakas",
+	"CreatedByURL": "https://github.com/benvrakas",
+	"DocsURL": "https://github.com/benvrakas/ContinuousElevatorSync",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/benvrakas/ContinuousElevatorSync/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"RequiredOnRemote": false,
+	"Modules": [
+		{
+			"Name": "ContinuousElevatorSync",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.12.0"
+		}
+	]
+}
