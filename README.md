@@ -8,4 +8,4 @@ Only the server needs it.
 - How it works: [Docs/Architecture.md](Docs/Architecture.md)
 - Changes: [Docs/Release/Changelog.md](Docs/Release/Changelog.md)
 
-Package: `Tools\BuildScripts\package-continuouselevatorsync.bat [local]` in the modding workspace.
+Package: `Tools\BuildScripts\sfmod package ContinuousElevatorSync [local]` in the modding workspace.
